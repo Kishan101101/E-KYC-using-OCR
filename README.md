@@ -63,3 +63,16 @@ Before you start, ensure that you have the following installed:
 
    ```bash
    git clone https://github.com/Kishan101101/E-KYC-using-OCR.git
+2. ** Database setup**:
+
+### Create the `config.toml` File
+
+In the root directory (where `app.py` is located), create a file named `config.toml` and add the following content:
+
+```toml
+[database]
+user = "your_username"
+password = "your_password"
+host = "localhost"
+database = "your_database_name"
+
